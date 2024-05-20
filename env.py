@@ -1,0 +1,14 @@
+# TWILIO Details
+TWILIO_ACCOUNT_SID = 'TWILIO_ACCOUNT_SID'
+TWILIO_AUTH_TOKEN = 'TWILIO_AUTH_TOKEN'
+TWILIO_OUTBOUND = 'whatsapp:+61737119160'
+TWILIO_RECEIVER = 'whatsapp:+61737119160'
+TWILIO_ENDPOINT = 'https://twilio.com/console'
+
+# Cloudflare R2 Details
+S3_BUCKET_ENDPOINT = 'https://dash.cloudflare.com/login' 
+S3_TOKEN_NAME = 'S3_TOKEN_NAME'
+S3_ACCESS_KEY_ID = 'S3_ACCESS_KEY_ID'
+S3_SECRET_ACCESS_KEY = 'S3_SECRET_ACCESS_KEY'
+S3_BUCKET_IMAGE_ENDPOINT = 'https://mcdonalds.com.au/'
+S3_BUCKET_NO_IMAGE_ENDPOINT = 'https://mcdonalds.com.au/'
