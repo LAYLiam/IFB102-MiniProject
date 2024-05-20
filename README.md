@@ -1,9 +1,7 @@
 # Title: IFB102-Mini Project
-This image might not be the best representation for the project. It will be updated in the near future.
-![Powerpoint slide showing the Pi4B and Logitech camera, with a program flow diagram. TBH not a great representation :(](https://api.llay.au/Detection/Ppt1.png)
-
-A unsuspecting stranger approaches!
-![Picture of Twilio sending WhatsApp messages](https://api.llay.au/Detection/Screenshot_20240521-051613.png)
+This image might not be the best representation for the project. It will be updated in the near future. | A unsuspecting stranger approaches! No stealing today :)
+:-------------------------:|:-------------------------:
+![Powerpoint slide showing the Pi4B and Logitech camera, with a program flow diagram. TBH not a great representation :(](https://api.llay.au/Detection/Ppt1.png) | ![Picture of Twilio sending WhatsApp messages](https://api.llay.au/Detection/Screenshot_20240521-051613.png)
 
 ## Contents:
 1. Description
@@ -21,6 +19,7 @@ This project can be downloaded an run on a computer with a webcam. I believe the
 For movement and person detection, OpenCV was used. The person detection uses OpenCV's pre-trained haar cascades model, which feels like cheating.
 Initially I had issues using this on the Pi4B, as I had imported it as "from cv2 import data". I was unable to resolve what appeared to be compatible import with 
 Python 3.12 but incompatible with Python 3.9 (which was the version installed on the Pi4B), but it is possible to simply download the XML file and point to its file location. 
+To keep my WhatsApp from being spammed, and to keep my Twilio credits in the free tier, in **sendmessage.py** there is a constant *LAST_SEEN_THRESHOLD*, and it controls the amount of seconds since seeing a person that are sufficient to consider any new movement/person detected part of a new interaction (requiring a new message alert).
 
 > [!TIP]
 > Haar cascades XML download [here](https://github.com/opencv/opencv/tree/master/data/haarcascades).
