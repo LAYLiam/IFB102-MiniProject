@@ -21,6 +21,8 @@ Initially I had issues using this on the Pi4B, as I had imported it as "from cv2
 Python 3.12 but incompatible with Python 3.9 (which was the version installed on the Pi4B), but it is possible to simply download the XML file and point to its file location. 
 To keep my WhatsApp from being spammed, and to keep my Twilio credits in the free tier, in **sendmessage.py** there is a constant *LAST_SEEN_THRESHOLD*, and it controls the amount of seconds since seeing a person that are sufficient to consider any new movement/person detected part of a new interaction (requiring a new message alert).
 
+![Picture of some code in VSCode and a demonstration of haar cascades ROI drawing](https://api.llay.au/Detection/haarcascades.png)
+
 > [!TIP]
 > Haar cascades XML download [here](https://github.com/opencv/opencv/tree/master/data/haarcascades).
 
@@ -28,6 +30,8 @@ To keep my WhatsApp from being spammed, and to keep my Twilio credits in the fre
 To serve the messages, Twilio was used due to the free-tier credits (which should last the duration of this project).
 To be able to serve images (.png) to the end user, Twilio required a URL. As such, Cloudflare's R2 file storage system was used.
 OpenCV frames would be written to file locally, and the local file would be uploaded to a R2 bucket which has an accessible image URL endpoint for Twilio to use. 
+
+![Picture of some code in VSCode of code relating to Cloudflare R2](https://api.llay.au/Detection/bucket.png)
 
 > [!TIP]
 > If you want to set up Twilio in Python you might find [this](https://www.twilio.com/docs/whatsapp/quickstart/python) helpful.
