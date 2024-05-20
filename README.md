@@ -46,6 +46,7 @@ Next I want to see if it is feasable to create a WebRTC stream. I think the Pi4B
 - from cv2 import data 
 - import numpy as np
 - import time
+- import twilio
 - import boto3
 - import sys
 > [!CAUTION]
