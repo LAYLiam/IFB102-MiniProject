@@ -2,6 +2,9 @@
 This image might not be the best representation for the project. It will be updated in the near future.
 ![Powerpoint slide showing the Pi4B and Logitech camera, with a program flow diagram. TBH not a great representation :(](https://api.llay.au/Detection/Ppt1.png)
 
+A unsuspecting stranger approaches!
+![Picture of Twilio sending WhatsApp messages](https://api.llay.au/Detection/Screenshot_20240521-051613.png)
+
 ## Contents:
 1. Description
 2. Detection
@@ -51,5 +54,6 @@ Next I want to see if it is feasable to create a WebRTC stream. I think the Pi4B
 - import sys
 > [!CAUTION]
 > The from cv2 import data package works well in Python versions such as 3.12, but may be incompatible with version 3.9.
+
 
 
