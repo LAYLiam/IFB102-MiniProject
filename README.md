@@ -1,7 +1,6 @@
 # Title: IFB102-Mini Project
 This image might not be the best representation for the project. It will be updated in the near future. | A unsuspecting stranger approaches! No stealing today :)
 :-------------------------:|:-------------------------:
-![Powerpoint slide showing the Pi4B and Logitech camera, with a program flow diagram. TBH not a great representation :(](https://api.llay.au/Detection/Ppt1.png) | ![Picture of Twilio sending WhatsApp messages](https://api.llay.au/Detection/Screenshot_20240521-051613.png)
 
 ## Contents:
 1. Description
